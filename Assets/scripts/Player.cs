@@ -13,6 +13,9 @@ public class Player : MonoBehaviour
     [Header("movimiento")]
     public float speed;
 
+    [Header("rotacion")]
+    public bool girado;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +51,9 @@ public class Player : MonoBehaviour
 
         transform.position += new Vector3(speed * Time.deltaTime, 0);
 
+
+        //definir la rotacion del personaje
+
     }
 
 
@@ -56,9 +62,27 @@ public class Player : MonoBehaviour
         if (collision.CompareTag("Cambio"))
         {
             CambioColor();
-            Destroy(collision.gameObject    );
+            Destroy(collision.gameObject);
         }
     }
 
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Pared"))
+        {
+            girar();
+        }
+    }
+
+
+
+    public void girar()
+    {
+        transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y);
+
+        speed *= -1;
+
+    }
 
 }
