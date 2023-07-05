@@ -16,6 +16,9 @@ public class Player : MonoBehaviour
     [Header("rotacion")]
     public bool girado;
 
+    [Header("Salto")]
+    public Rigidbody2D Rb; 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +30,8 @@ public class Player : MonoBehaviour
     {
 
         movement();
+
+        ActualColor();
 
     }
 
@@ -73,6 +78,19 @@ public class Player : MonoBehaviour
         {
             girar();
         }
+        if (collision.gameObject.CompareTag("plataforma"))
+        {
+            transform.parent = collision.transform;
+        }
+    }
+
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("plataforma"))
+        {
+            transform.parent = null;
+        }
     }
 
 
@@ -84,5 +102,26 @@ public class Player : MonoBehaviour
         speed *= -1;
 
     }
+
+
+    public void ActualColor()
+    {
+        if (azul == true)
+        {
+            sP.sprite = spriteAzul;
+        }
+        else
+        {
+            sP.sprite = spriteRojo;
+        }
+    }
+
+
+
+    public void Salto(float _salto)
+    {
+
+    }
+
 
 }
