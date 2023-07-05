@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Cambio
   - Pared
+  - plataforma
   layers:
   - Default
   - TransparentFX

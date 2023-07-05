@@ -1692,7 +1692,7 @@ GameObject:
   - component: {fileID: 1292370321}
   m_Layer: 0
   m_Name: pared 1 (1)
-  m_TagString: Untagged
+  m_TagString: plataforma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2478,6 +2478,7 @@ MonoBehaviour:
   azul: 1
   speed: 8.91
   girado: 0
+  Rb: {fileID: 0}
 --- !u!1 &1760647876
 GameObject:
   m_ObjectHideFlags: 0
@@ -2603,7 +2604,7 @@ GameObject:
   - component: {fileID: 1851282791}
   m_Layer: 0
   m_Name: pared 1
-  m_TagString: Untagged
+  m_TagString: plataforma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
