@@ -1711,7 +1711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posAzul: {x: -24.7, y: -2.4, z: 0}
   posRojo: {x: -24.7, y: -20.83, z: 0}
-  speed: 0.12
+  speed: 0.5
   luzAzul: {fileID: 822423876}
   luzRojo: {fileID: 408392409}
 --- !u!61 &1292370322
@@ -2472,11 +2472,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9443d44263eec39489e8126a2f14a960, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sP: {fileID: 0}
+  sP: {fileID: 1748684800}
   spriteRojo: {fileID: 1229842603, guid: e1bfcc2cc1ffbfb41aefbab738c1a24d, type: 3}
   spriteAzul: {fileID: -498658080, guid: e1bfcc2cc1ffbfb41aefbab738c1a24d, type: 3}
-  azul: 1
-  speed: 8.91
+  azul: 0
+  speed: 13.19
   girado: 0
   Rb: {fileID: 0}
 --- !u!1 &1760647876
@@ -2623,7 +2623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posAzul: {x: 12.5, y: -2.4, z: 0}
   posRojo: {x: 12.5, y: 8.2, z: 0}
-  speed: 0.07
+  speed: 0.5
   luzAzul: {fileID: 495180670}
   luzRojo: {fileID: 1945537790}
 --- !u!61 &1851282792
