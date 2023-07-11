@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -17,7 +18,12 @@ public class Player : MonoBehaviour
     public bool girado;
 
     [Header("Salto")]
-    public Rigidbody2D Rb; 
+    public Rigidbody2D Rb;
+
+
+    [Header("cambiar nivel")]
+    public GameObject youLose;
+
 
     // Start is called before the first frame update
     void Start()
@@ -64,11 +70,13 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
         if (collision.CompareTag("Cambio"))
         {
             CambioColor();
             Destroy(collision.gameObject);
         }
+
     }
 
 
@@ -123,5 +131,14 @@ public class Player : MonoBehaviour
 
     }
 
+
+    public void CambiarEscena()
+    {
+        Time.timeScale = 1;
+
+        Scene activeScene = SceneManager.GetActiveScene();
+        string escena = activeScene.name;
+        SceneManager.LoadScene(escena);
+    }
 
 }
