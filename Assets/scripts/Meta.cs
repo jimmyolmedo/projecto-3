@@ -27,6 +27,7 @@ public class Meta : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && Activado == true)
         {
             Debug.Log("ganaste");
+            GameObject.Find("SceneManager").GetComponent<CambioScenas>().YouWin();
         }
     }
 

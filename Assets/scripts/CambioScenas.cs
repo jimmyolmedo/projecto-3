@@ -43,4 +43,20 @@ public class CambioScenas : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 
+
+    public void YouWin()
+    {
+        Time.timeScale = 0;
+
+        youWin.SetActive(true);
+    }
+
+
+    public void NextLevel(string _nivel)
+    {
+        Time.timeScale = 1;
+
+        SceneManager.LoadScene(_nivel);
+    }
+
 }
