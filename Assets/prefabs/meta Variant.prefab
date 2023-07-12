@@ -61,15 +61,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5723054396582984731, guid: e9c8f58980217044ca6e13b9dce38564, type: 3}
       propertyPath: m_Color.a
-      value: 0.36078432
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5723054396582984731, guid: e9c8f58980217044ca6e13b9dce38564, type: 3}
       propertyPath: m_Color.b
-      value: 0.9176471
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5723054396582984731, guid: e9c8f58980217044ca6e13b9dce38564, type: 3}
       propertyPath: m_Color.g
-      value: 0.654902
+      value: 0.8612397
       objectReference: {fileID: 0}
     - target: {fileID: 5723054396582984731, guid: e9c8f58980217044ca6e13b9dce38564, type: 3}
       propertyPath: m_Color.r
@@ -81,7 +81,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5723054396582984732, guid: e9c8f58980217044ca6e13b9dce38564, type: 3}
       propertyPath: m_Name
-      value: meta
+      value: meta Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5723054396582984733, guid: e9c8f58980217044ca6e13b9dce38564, type: 3}
       propertyPath: Azul

@@ -8,8 +8,6 @@ public class CambiarColor : MonoBehaviour
     [Header("cambiar colores")]
     public bool rojo;
     public bool azul;
-    public GameObject luzRoja;
-    public GameObject luzAzul;
 
     void Start()
     {
@@ -19,9 +17,6 @@ public class CambiarColor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        ColorActual();
-
 
         CambioColor();
 
@@ -43,21 +38,6 @@ public class CambiarColor : MonoBehaviour
                 azul = false;
                 rojo = true;
             }
-        }
-    }
-
-
-    public void ColorActual()
-    {
-        if(azul == true)
-        {
-            luzAzul.SetActive(true);
-            luzRoja.SetActive(false);
-        }
-        else
-        {
-            luzRoja.SetActive(true);
-            luzAzul.SetActive(false);
         }
     }
 
