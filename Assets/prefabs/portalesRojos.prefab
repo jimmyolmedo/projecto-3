@@ -195,7 +195,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399637378070225993}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.726418, y: -26.924824, z: 0.08066993}
+  m_LocalPosition: {x: 19.8, y: -28.4, z: 0.08066993}
   m_LocalScale: {x: 25.537, y: 25.537, z: 25.537}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -325,7 +325,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399637378135592807}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 3.9735835, y: -6.9248223, z: 0.08066993}
+  m_LocalPosition: {x: 3.9735835, y: -9.3, z: 0.08066993}
   m_LocalScale: {x: 25.537, y: 25.537, z: 25.537}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -396,7 +396,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.08844182, y: 0.23541653}
   m_SpriteTilingProperty:
@@ -425,8 +425,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teleportPos: {fileID: 399637377152555657}
   girar: 0
-  rojo: 0
-  azul: 1
+  rojo: 1
+  azul: 0
   activar: 0
 --- !u!1 &1781924422779463639
 GameObject:
