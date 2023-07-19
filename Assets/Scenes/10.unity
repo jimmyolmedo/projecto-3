@@ -318,7 +318,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 28
   m_Sprite: {fileID: -1888039090, guid: e1bfcc2cc1ffbfb41aefbab738c1a24d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -338,8 +338,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351668393}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 39.2, y: -13, z: 0}
-  m_LocalScale: {x: 78.766815, y: 15.734, z: 15.734}
+  m_LocalPosition: {x: 39.2, y: 0.6, z: 0}
+  m_LocalScale: {x: 46.52165, y: 15.734, z: 15.734}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -561,7 +561,7 @@ Transform:
   m_GameObject: {fileID: 475703974}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.1828, y: -20.83, z: 0}
-  m_LocalScale: {x: 78.766815, y: 15.734, z: 15.734}
+  m_LocalScale: {x: 90.58183, y: 15.734, z: 15.734}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -574,6 +574,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 399637376304466632, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 399637376304466633, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.245
+      objectReference: {fileID: 0}
+    - target: {fileID: 399637376304466633, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.191
+      objectReference: {fileID: 0}
+    - target: {fileID: 399637378135592811, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 399637378135592811, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 399637378135592811, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 399637378135592811, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 399637378135592811, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399637378135592811, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 1781924422779463639, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
       propertyPath: m_Name
       value: portalesRojos
@@ -1215,7 +1251,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 28
   m_Sprite: {fileID: -1888039090, guid: e1bfcc2cc1ffbfb41aefbab738c1a24d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1235,8 +1271,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976826400}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -36.3, y: -13, z: 0}
-  m_LocalScale: {x: 78.766815, y: 15.734, z: 15.734}
+  m_LocalPosition: {x: -36.3, y: -0.4, z: 0}
+  m_LocalScale: {x: 51.19843, y: 15.734, z: 15.734}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1272,7 +1308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6264983303889850864, guid: 0f08d94cbbaadd341b0409ec89447b21, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6264983304061379364, guid: 0f08d94cbbaadd341b0409ec89447b21, type: 3}
       propertyPath: m_text
@@ -1518,7 +1554,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146334747}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.8, y: -18.3, z: 0}
+  m_LocalPosition: {x: -32.4, y: -18, z: 0}
   m_LocalScale: {x: 17.69288, y: 17.692879, z: 17.69288}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1826,7 +1862,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1229842603, guid: e1bfcc2cc1ffbfb41aefbab738c1a24d, type: 3}
+  m_Sprite: {fileID: -498658080, guid: e1bfcc2cc1ffbfb41aefbab738c1a24d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
