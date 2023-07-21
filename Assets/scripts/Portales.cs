@@ -14,10 +14,14 @@ public class Portales : MonoBehaviour
     public bool azul;
     public bool activar;
 
+    [Header("iluminar portal")]
+    public GameObject luz1;
+    public GameObject luz2;
+    public bool iluminar;
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(ActivarPortal());
     }
 
     // Update is called once per frame
@@ -32,6 +36,8 @@ public class Portales : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && activar == true)
         {
             collision.gameObject.transform.position = teleportPos.position;
+
+            iluminar = true;
 
             if (girar)
             {
@@ -67,6 +73,32 @@ public class Portales : MonoBehaviour
             }
         }
 
+    }
+
+
+    public IEnumerator ActivarPortal()
+    {
+        while (true)
+        {
+            if (iluminar == true)
+            {
+                luz1.SetActive(true);
+                luz2.SetActive(true);
+                Debug.Log("se activo");
+                yield return new WaitForSeconds(0.25f);
+
+                iluminar = false;
+                luz1.SetActive(false);
+                luz2.SetActive(false);
+                Debug.Log("se desactivo");
+
+            }
+            else
+            {
+                yield return null;
+            }
+
+        }
     }
 
 
