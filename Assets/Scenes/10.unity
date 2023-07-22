@@ -21450,6 +21450,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 698122135, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698122136, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 8.198764
+      objectReference: {fileID: 0}
+    - target: {fileID: 698122137, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0028585196
+      objectReference: {fileID: 0}
+    - target: {fileID: 698122137, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698122137, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698122137, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.99999595
+      objectReference: {fileID: 0}
+    - target: {fileID: 970095527, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 399637376304466632, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
       propertyPath: m_Icon
       value: 

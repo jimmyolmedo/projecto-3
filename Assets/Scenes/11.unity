@@ -11386,6 +11386,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 698122135, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698122136, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 13.235639
+      objectReference: {fileID: 0}
+    - target: {fileID: 698122137, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.33965188
+      objectReference: {fileID: 0}
+    - target: {fileID: 698122137, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.06891223
+      objectReference: {fileID: 0}
+    - target: {fileID: 698122137, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8917686
+      objectReference: {fileID: 0}
+    - target: {fileID: 698122137, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2909236
+      objectReference: {fileID: 0}
+    - target: {fileID: 970095527, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 970095528, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 7.1741033
+      objectReference: {fileID: 0}
+    - target: {fileID: 970095529, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7834826
+      objectReference: {fileID: 0}
+    - target: {fileID: 970095529, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6214137
+      objectReference: {fileID: 0}
     - target: {fileID: 399637376304466632, guid: c5baadcffd96ad94a97a7052ade6e8f1, type: 3}
       propertyPath: m_Icon
       value: 
