@@ -25,6 +25,11 @@ public class Player : MonoBehaviour
     public GameObject youLose;
 
 
+    [Header("Particulas")]
+    public GameObject partAzul;
+    public GameObject partRoja;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -124,11 +129,25 @@ public class Player : MonoBehaviour
         }
     }
 
-
-
-    public void Salto(float _salto)
+    public void EncenderParticulas()
     {
+        if (azul == true)
+        {
+            partAzul.SetActive(true);
+            partRoja.SetActive(false);
+        }
+        else
+        {
+            partAzul.SetActive(false);
+            partRoja.SetActive(true);
+        }
+    }
 
+
+    public void ApagarParticulas()
+    {
+        partAzul.SetActive(false);
+        partRoja.SetActive(false);
     }
 
 

@@ -45,15 +45,37 @@ public class Pinchos : MonoBehaviour
                     GameObject.Find("SceneManager").GetComponent<CambioScenas>().YouLose();
                     Destroy(collision.gameObject);
                 }
+                else
+                {
+                    GameObject.Find("Player").GetComponent<Player>().EncenderParticulas();
+
+                    //encender particulas
+                }
             }
-            else
+            if (!azul)
             {
                 if (GameObject.Find("Player").GetComponent<Player>().azul == true)
                 {
                     GameObject.Find("SceneManager").GetComponent<CambioScenas>().YouLose();
                     Destroy(collision.gameObject);
                 }
+                else
+                {
+                    GameObject.Find("Player").GetComponent<Player>().EncenderParticulas();
+
+
+                    //encender particulas
+                }
             }
+        }
+    }
+
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            GameObject.Find("Player").GetComponent<Player>().ApagarParticulas();
         }
     }
 
