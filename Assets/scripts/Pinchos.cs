@@ -38,7 +38,7 @@ public class Pinchos : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (azul)
+            if (azul == true)
             {
                 if(GameObject.Find("Player").GetComponent<Player>().azul == false)
                 {
@@ -52,7 +52,7 @@ public class Pinchos : MonoBehaviour
                     //encender particulas
                 }
             }
-            if (!azul)
+            if (azul == false)
             {
                 if (GameObject.Find("Player").GetComponent<Player>().azul == true)
                 {
