@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     public Sprite spriteRojo;
     public Sprite spriteAzul;
     public bool azul = true;
+    public string nombreCambiador;
+
 
     [Header("movimiento")]
     public float speed;
@@ -49,7 +51,7 @@ public class Player : MonoBehaviour
 
     public void CambioColor()
     {
-        if(azul == true)
+        if(nombreCambiador == "cambiadorRojo")
         {
             azul = false;
             sP.sprite = spriteRojo;
@@ -78,6 +80,7 @@ public class Player : MonoBehaviour
 
         if (collision.CompareTag("Cambio"))
         {
+            nombreCambiador = collision.name;
             CambioColor();
             Destroy(collision.gameObject);
         }
