@@ -35,14 +35,14 @@ public class Pared : MonoBehaviour
         {
             if(transform.position != posAzul)
             {
-                transform.position = Vector3.MoveTowards(transform.position, posAzul, speed);
+                transform.position = Vector3.MoveTowards(transform.position, posAzul, speed * Time.deltaTime);
             }
         }
         else
         {
             if (transform.position != posRojo)
             {
-                transform.position = Vector3.MoveTowards(transform.position, posRojo, speed);
+                transform.position = Vector3.MoveTowards(transform.position, posRojo, speed * Time.deltaTime);
             }
         }
     }
